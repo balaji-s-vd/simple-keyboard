@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="48dp" >
+
+        <Button style="@style/BasicKeyStyle" android:tag="ALT" android:text="@string/alt" android:textSize="16sp" android:layout_marginStart="4dp"/>
+        <Button style="@style/BasicKeyStyle" android:tag="SHIFT_GRAVE" android:text="@string/tilde" />
+        <Button style="@style/BasicKeyStyle" android:tag="GRAVE" android:text="@string/grave" />
+        <Button style="@style/BasicKeyStyle" android:tag="SHIFT_BACKSLASH" android:text="@string/pipe" />
+        <Button style="@style/BasicKeyStyle" android:tag="SHIFT_5" android:text="@string/percent" />
+        <Button style="@style/BasicKeyStyle" android:tag="LEFT_BRACKET" android:text="@string/left_bracket" />
+        <Button style="@style/BasicKeyStyle" android:tag="RIGHT_BRACKET" android:text="@string/right_bracket" />
+        <Button style="@style/BasicKeyStyle" android:tag="MOVE_HOME" android:text="@string/home" android:textSize="12sp" />
+        <Button style="@style/BasicKeyStyle" android:tag="DPAD_UP" android:text="@string/up_arrow" />
+        <Button style="@style/BasicKeyStyle" android:tag="MOVE_END" android:text="@string/end" android:textSize="12sp" android:layout_marginEnd="4dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        >
+        <Button style="@style/BasicKeyStyle" android:tag="SHIFT_COMMA" android:text="@string/shift_comma" />
+        <Button style="@style/BasicKeyStyle" android:tag="SHIFT_PERIOD" android:text="@string/shift_period" />
+        <Button style="@style/BasicKeyStyle" android:tag="SHIFT_LEFT_BRACKET" android:text="@string/curly_left" />
+        <Button style="@style/BasicKeyStyle" android:tag="SHIFT_RIGHT_BRACKET" android:text="@string/curly_right" />
+        <Button style="@style/BasicKeyStyle" android:tag="EQUALS" android:text="@string/equals" />
+        <Button style="@style/BasicKeyStyle" android:tag="SHIFT_6" android:text="@string/power" />
+        <Button style="@style/BasicKeyStyle" android:tag="SHIFT_4" android:text="@string/dollar" />
+        <Button style="@style/BasicKeyStyle" android:tag="DPAD_LEFT" android:text="@string/left_arrow" />
+        <Button style="@style/BasicKeyStyle" android:tag="DPAD_DOWN" android:text="@string/down_arrow" />
+        <Button style="@style/BasicKeyStyle" android:tag="DPAD_RIGHT" android:text="@string/right_arrow" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        >
+
+        <Button style="@style/BasicKeyStyle" android:tag="AT" android:text="@string/at_key" />
+        <Button style="@style/BasicKeyStyle" android:tag="POUND" android:text="@string/pound" />
+        <Button style="@style/BasicKeyStyle" android:tag="BACKSLASH" android:text="@string/backslash" />
+        <Button style="@style/BasicKeyStyle" android:tag="SHIFT_MINUS" android:text="@string/big_minus" />
+        <Button style="@style/BasicKeyStyle" android:tag="SHIFT_7" android:text="@string/amp" />
+        <Button style="@style/BasicKeyStyle" android:tag="MINUS" android:text="@string/minus" />
+        <Button style="@style/BasicKeyStyle" android:tag="SHIFT_EQUALS" android:text="@string/plus" />
+        <Button style="@style/BasicKeyStyle" android:tag="SHIFT_9" android:text="@string/open_bracket" />
+        <Button style="@style/BasicKeyStyle" android:tag="SHIFT_0" android:text="@string/close_bracket" />
+        <Button style="@style/BasicKeyStyle" android:tag="SLASH" android:text="@string/slash" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        >
+
+        <Button style="@style/BasicKeyStyle" android:tag="SHIFT" android:text="@string/shift_key"/>
+        <Button style="@style/BasicKeyStyle" android:tag="STAR" android:text="@string/star" />
+        <Button style="@style/BasicKeyStyle" android:tag="SHIFT_APOSTROPHE" android:text="@string/double_apostrophe" />
+        <Button style="@style/BasicKeyStyle" android:tag="APOSTROPHE" android:text="@string/apostrophe" />
+        <Button style="@style/BasicKeyStyle" android:tag="SHIFT_SEMICOLON" android:text="@string/colon" />
+        <Button style="@style/BasicKeyStyle" android:tag="SEMICOLON" android:text="@string/semi_colon" />
+        <Button style="@style/BasicKeyStyle" android:tag="SHIFT_1" android:text="@string/exclaimation" />
+        <Button style="@style/BasicKeyStyle" android:tag="SHIFT_SLASH" android:text="@string/question" />
+        <Button style="@style/BasicKeyStyle" android:tag="DEL" android:text="@string/del_key" />
+
+
+    </LinearLayout>
+
+    <!-- ctrl-space-enter Row -->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginBottom="8dp">
+
+        <Button style="@style/BasicKeyStyle" android:tag="LOAD_MAIN_KEYBOARD" android:text="@string/main_switch" android:textSize="16sp" />
+        <Button style="@style/BasicKeyStyle" android:tag="CTRL" android:text="@string/ctrl" android:textSize="16sp"/>
+        <Button style="@style/BasicKeyStyle" android:tag="COMMA" android:text="@string/comma" />
+        <Button style="@style/BasicKeyStyle" android:tag="SPACE" android:text="@string/space" android:textSize="12sp" android:layout_height="28dp" android:layout_weight="3" android:padding="0dp"/>
+        <Button style="@style/BasicKeyStyle" android:tag="TAB" android:text="@string/tab" />
+        <Button style="@style/BasicKeyStyle" android:tag="ENTER" android:text="@string/enter_key" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

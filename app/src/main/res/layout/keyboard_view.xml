@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/keyboard_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:orientation="vertical">
+
+    <!-- Number Row -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:orientation="horizontal">
+
+        <Button
+            style="@style/BasicKeyStyle"
+            android:layout_marginStart="4dp"
+            android:tag="1"
+            android:text="@string/num1" />
+
+        <Button
+            style="@style/BasicKeyStyle"
+            android:tag="2"
+            android:text="@string/num2" />
+
+        <Button
+            style="@style/BasicKeyStyle"
+            android:tag="3"
+            android:text="@string/num3" />
+
+        <Button
+            style="@style/BasicKeyStyle"
+            android:tag="4"
+            android:text="@string/num4" />
+
+        <Button
+            style="@style/BasicKeyStyle"
+            android:tag="5"
+            android:text="@string/num5" />
+
+        <Button
+            style="@style/BasicKeyStyle"
+            android:tag="6"
+            android:text="@string/num6" />
+
+        <Button
+            style="@style/BasicKeyStyle"
+            android:tag="7"
+            android:text="@string/num7" />
+
+        <Button
+            style="@style/BasicKeyStyle"
+            android:tag="8"
+            android:text="@string/num8" />
+
+        <Button
+            style="@style/BasicKeyStyle"
+            android:tag="9"
+            android:text="@string/num9" />
+    </LinearLayout>
+
+    <!-- QWERTY Row -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:orientation="horizontal">
+
+        <Button
+            style="@style/BasicKeyStyle"
+            android:layout_marginStart="4dp"
+            android:tag="Q"
+            android:text="@string/text_q" />
+
+        <Button
+            style="@style/BasicKeyStyle"
+            android:tag="W"
+            android:text="@string/text_w" />
+
+        <Button
+            style="@style/BasicKeyStyle"
+            android:tag="E"
+            android:text="@string/text_e" />
+
+        <Button
+            style="@style/BasicKeyStyle"
+            android:tag="R"
+            android:text="@string/text_r" />
+
+        <Button
+            style="@style/BasicKeyStyle"
+            android:tag="T"
+            android:text="@string/text_t" />
+
+        <Button
+            style="@style/BasicKeyStyle"
+            android:tag="Y"
+            android:text="@string/text_y" />
+
+        <Button
+            style="@style/BasicKeyStyle"
+            android:tag="U"
+            android:text="@string/text_u" />
+
+        <Button
+            style="@style/BasicKeyStyle"
+            android:tag="I"
+            android:text="@string/text_i" />
+
+        <Button
+            style="@style/BasicKeyStyle"
+            android:tag="O"
+            android:text="@string/text_o" />
+
+        <Button
+            style="@style/BasicKeyStyle"
+            android:layout_marginEnd="4dp"
+            android:tag="P"
+            android:text="@string/text_p" />
+    </LinearLayout>
+
+    <!-- ASDF Row -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:orientation="horizontal">
+
+        <Button
+            style="@style/BasicKeyStyle"
+            android:tag="A"
+            android:text="@string/text_a" />
+
+        <Button
+            style="@style/BasicKeyStyle"
+            android:tag="S"
+            android:text="@string/text_s" />
+
+        <Button
+            style="@style/BasicKeyStyle"
+            android:tag="D"
+            android:text="@string/text_d" />
+
+        <Button
+            style="@style/BasicKeyStyle"
+            android:tag="F"
+            android:text="@string/text_f" />
+
+        <Button
+            style="@style/BasicKeyStyle"
+            android:tag="G"
+            android:text="@string/text_g" />
+
+        <Button
+            style="@style/BasicKeyStyle"
+            android:tag="H"
+            android:text="@string/text_h" />
+
+        <Button
+            style="@style/BasicKeyStyle"
+            android:tag="J"
+            android:text="@string/text_j" />
+
+        <Button
+            style="@style/BasicKeyStyle"
+            android:tag="K"
+            android:text="@string/text_k" />
+
+        <Button
+            style="@style/BasicKeyStyle"
+            android:tag="L"
+            android:text="@string/text_l" />
+    </LinearLayout>
+
+    <!-- ZXC Row -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:orientation="horizontal">
+
+        <Button
+            style="@style/BasicKeyStyle"
+            android:layout_marginStart="4dp"
+            android:tag="SHIFT"
+            android:text="@string/shift_key" />
+
+        <Button
+            style="@style/BasicKeyStyle"
+            android:layout_marginStart="4dp"
+            android:tag="Z"
+            android:text="@string/text_a" />
+
+        <Button
+            style="@style/BasicKeyStyle"
+            android:tag="X"
+            android:text="@string/text_s" />
+
+        <Button
+            style="@style/BasicKeyStyle"
+            android:tag="C"
+            android:text="@string/text_d" />
+
+        <Button
+            style="@style/BasicKeyStyle"
+            android:tag="V"
+            android:text="@string/text_f" />
+
+        <Button
+            style="@style/BasicKeyStyle"
+            android:tag="B"
+            android:text="@string/text_g" />
+
+        <Button
+            style="@style/BasicKeyStyle"
+            android:tag="N"
+            android:text="@string/text_h" />
+
+        <Button
+            style="@style/BasicKeyStyle"
+            android:tag="M"
+            android:text="@string/text_j" />
+
+        <Button
+            style="@style/BasicKeyStyle"
+            android:tag="DEL"
+            android:text="@string/del_key" />
+    </LinearLayout>
+
+    <!-- Space Row -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginBottom="8dp"
+        android:orientation="horizontal">
+
+        <Button
+            style="@style/BasicKeyStyle"
+            android:tag="LOAD_SYMBOLS_KEYBOARD"
+            android:text="@string/symbol_key"
+            android:textSize="16sp" />
+
+        <Button
+            style="@style/BasicKeyStyle"
+            android:tag="CTRL"
+            android:text="@string/ctrl"
+            android:textSize="16sp" />
+
+        <Button
+            style="@style/BasicKeyStyle"
+            android:tag="ALT"
+            android:text="@string/alt"
+            android:textSize="16sp" />
+
+        <Button
+            style="@style/BasicKeyStyle"
+            android:layout_height="28dp"
+            android:layout_weight="3"
+            android:padding="0dp"
+            android:tag="SPACE"
+            android:text="@string/space"
+            android:textSize="12sp" />
+
+        <Button
+            style="@style/BasicKeyStyle"
+            android:tag="PERIOD"
+            android:text="@string/period" />
+
+        <Button
+            style="@style/BasicKeyStyle"
+            android:tag="ENTER"
+            android:text="@string/enter_key" />
+    </LinearLayout>
+
+</LinearLayout>
